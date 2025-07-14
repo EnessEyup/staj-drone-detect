@@ -1,0 +1,16 @@
+path: C:/Users/enes/staj-drone-detect/data/visdrone
+ 
+
+train: train/images
+val: valid/images
+test: test/images          # test klasörün yoksa bu satırı silebilirsin
+
+nc: 12
+names: ['Awning-tricycle', 'Bicycle', 'Bus', 'Car', 'Ignore', 'Motor', 'Others', 'Pedestrian', 'People', 'Tricycle', 'Truck', 'Van']
+
+roboflow:
+  workspace: visdrone
+  project: visdrone-lzsy1
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/visdrone/visdrone-lzsy1/dataset/3
